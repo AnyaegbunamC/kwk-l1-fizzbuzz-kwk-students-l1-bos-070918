@@ -15,8 +15,14 @@ def fizzbuzz(int)
   end
 end 
 
+puts fizbuzz(5)
+puts fizzbuzz(10)
+
 def fizzbuzz(int)
   if int % 15 == 0
     "Fizzbuzz"
   end 
 end 
+
+puts fizzbuzz(15)
+puts fizzbuzz(30)

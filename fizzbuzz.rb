@@ -20,7 +20,7 @@
 
 def fizzBuzz(int)
   if int % 15 == 0
-    "FizzBuzz"
+    "fizzBuzz"
   end 
 end 
 

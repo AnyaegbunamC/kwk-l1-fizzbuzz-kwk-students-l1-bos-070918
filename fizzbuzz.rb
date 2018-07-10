@@ -1,29 +1,16 @@
 def fizzbuzz(int)
-  if int % 3 == 0
-    "Fizz"
-  end 
-end
-
-puts fizzbuzz (3)
-puts fizzbuzz (9)
-
-
-
-def fizzbuzz(int)
-  if int % 5 == 0
-    "Buzz"
-  end
-end 
-
-puts fizzbuzz(5)
-puts fizzbuzz(10)
-
-def fizzbuzz(int)
   if int % 15 == 0
     "FizzBuzz"
+    
+    elsif int % 5 == 0 
+    "Buzz"
+    
+    elsif int % 3 == 0 
+    "Fizz"
+    
+  else 
+    nil 
   end 
 end 
 
-puts fizzbuzz(15)
-puts fizzbuzz(30)
-
+puts fizzbuzz(21)

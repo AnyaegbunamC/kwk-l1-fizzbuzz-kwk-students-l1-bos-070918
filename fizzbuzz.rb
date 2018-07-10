@@ -26,3 +26,4 @@ end
 
 puts fizzbuzz(15)
 puts fizzbuzz(30)
+

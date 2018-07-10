@@ -18,9 +18,9 @@
 # puts fizzbuzz(5)
 # puts fizzbuzz(10)
 
-def fizzBuzz(int)
+def fizzbuzz(int)
   if int % 15 == 0
-    "fizzBuzz"
+    "FizzBuzz"
   end 
 end 
 
